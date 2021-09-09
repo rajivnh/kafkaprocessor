@@ -1,0 +1,1 @@
+server:  port: 7777  spring:  cloud:    stream:      bindings:        msg-in-0:          destination: msg        msg-out-0:          destination: msgevent            kafka:    consumer:      group-id: caffay          
